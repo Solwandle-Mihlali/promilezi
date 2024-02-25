@@ -1,0 +1,171 @@
+:root {
+  --green: #91bc4d;
+  --blue: #54b9ed;
+  --blueTwo: #2e6ca8;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navCont {
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navCont .logo {
+  width: 10%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navCont .logo img {
+  width: 95%;
+}
+
+.navCont ul {
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navCont ul {
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+.navCont ul li {
+  width: 10%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  font-weight: bolder;
+}
+
+#reqDemoBtn {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+#reqDemoBtn button {
+  min-height: 5vh;
+  width: 95%;
+  font-size: 12px;
+  border-radius: 5px;
+  background: var(--green);
+  color: white;
+}
+
+.welcome {
+  width: 90%;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome .welcomeChild {
+  min-height: 80vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.welcome .left h1 {
+  color: var(--green);
+  font-size: 1.2rem;
+  font-size: normal;
+  font-weight: normal;
+  margin-bottom: -5%;
+}
+
+.welcome .left {
+  width: 40%;
+  gap: 0;
+  margin: 0;
+  padding: 1rem;
+}
+.welcome .left * {
+  width: 100%;
+  min-height: 3vh;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  padding: 0.3rem;
+}
+
+.welcome .left h2 {
+  background: var(--blueTwo); /* Replace with your desired radial gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  margin-bottom: -5%;
+  
+
+}
+
+.welcome .left h2 {
+  background: var(--blueTwo); /* Replace with your desired radial gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  
+}
+
+.welcome .left p {
+/* Replace with your desired radial gradient */
+color: grey;
+
+  font-size: 1rem;
+  margin-top: 5%;
+  font-size: 1.2rem;
+  font-size: normal;
+  font-weight: normal;
+}
+
+.welcome .left .buttonHolder {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5%;
+}
+
+.welcome .left .buttonHolder button {
+  min-height: 3.5vh;
+  width: 35%;
+  padding: 0.5rem;
+  background-color: var(--green);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.welcome .left .buttonHolder button:nth-child(1) {
+  background: var(--blueTwo);
+}
