@@ -43,7 +43,7 @@ function Solutions() {
         {
             headers?.map((val,ind)=>{
                 return(
-                    <div className="box">
+                    <div className="box" key={ind}>
                         <h1>{val.header}</h1>
                         <p>{val.bodyTxt}</p>
                         <button>LEARN MORE</button>

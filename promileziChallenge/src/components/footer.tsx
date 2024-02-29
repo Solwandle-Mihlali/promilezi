@@ -35,12 +35,12 @@ function Footer() {
           </li>
           <li>
             {services?.map((v, i) => {
-              return <p>{v}</p>;
+              return <p key={i}>{v}</p>;
             })}
           </li>
           <li>
           {links?.map((v, i) => {
-              return <p>{v}</p>;
+              return <p key={i}>{v}</p>;
             })}
           </li>
           <li>
